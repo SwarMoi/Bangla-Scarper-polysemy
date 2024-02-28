@@ -1,0 +1,129 @@
+---
+title: "Polysemy in Bangla"
+title-slide-attributes:
+  #data-background-image: /img/bangla.png
+  data-background-size: 60%
+  data-background-position: top
+  #data-background-opacity: "0.5"
+subtitle: "Democratizing AI Project"
+format: 
+  revealjs:
+    theme: css/style.scss
+    multiplex: false
+    highlight-style: printing
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 4
+      buttons: true
+    pause: true
+    mainfont: Cabinet Grotesk
+    footer: '**[Swarnendu Moitra](https://swarmoi.github.io.com)** //   swarmoi.github.io // Feb 28, 2024 '
+  #  logo: https://d33wubrfki0l68.cloudfront.net/d4cd9bd8e591d8973d68f98a71544bbe65d53733/79b34/img/logo.png
+editor: source
+knitr:
+  opts_chunk: 
+    dev: "ragg_png"
+    retina: 1
+    dpi: 200
+execute:
+  freeze: auto
+  cache: true
+  echo: true
+  fig-width: 5
+  fig-height: 6
+---
+
+## Who am I {.smaller}
+
+::: columns
+
+::: {.column width="70%" .incremental .smaller}
+
+- **Swarnendu Moitra**
+- I'm a **Pre-Doctoral Research assistant** working at __Morphemes & Meaning Lab__ , Queen Mary University of London 
+- the **SAVANT Project** (Systematicity and Variation in Word Structure Processing Across Languages: A Neuro-Typology Approach)
+- EEG, MEG and Behavioural techniques
+- I hold a Mphil in Cogsci; Masters in Linguistics; Undergrad in Electronics and Communications Engineering .
+
+:::
+
+::: {.column width="30%"}
+![](img/me.png){width=400 }
+:::
+
+:::
+
+::: footer
+:::
+
+## Bangla {.smaller}
+
+::: columns
+::: {.column width="60%" .incremental}
+-   an Indo-Aryan language native to the Bengal region of South Asia.
+-   **Bangladesh** 🇧🇩 : National language 
+-   **India** 🇮🇳 : Official language / West Bengal
+-   5th most spoken native language (300 million)
+-   Brahmic scripts (Abugida)
+:::
+
+::: {.column width="40%"}
+![](img/Bangla.png){width=1050}
+:::
+:::
+
+::: footer
+:::
+
+## Writing System (Script) {background-image="img/writing-system.png" background-position="center"  background-size="80%"}
+
+::: footer
+:::
+
+## Research {background-image="img/biorxiv.png" background-position="center"  background-size="100%"}
+
+::: footer
+:::
+
+##  Resources 
+
+::: {.incremental}
+- Online Dictionary
+  - [https://www.english-bangla.com/](https://www.english-bangla.com/)
+    - English to Bengali ️
+    - Bengali to English
+    - Bengali to Bengali ✔ (3000 words)
+  - Books 
+    
+:::
+
+::: footer
+:::
+
+
+##  Data 
+
+::: {.incremental}
+
+| Word   | POS                     | Meanings                                                   |
+|--------|-------------------------|------------------------------------------------------------|
+| রাগ    | /বিশেষ্য পদ/             | ক্রোধ, কোপ, রোষ।                                            |
+| পালক   | /বিশেষণ পদ , বিশেষ্য পদ/ | যে পালন করে, প্রতিপালক; রক্ষক।                               |
+| অকু     | /বিশেষ্য পদ/             | ঘটনা, দুর্ঘটনা, অন্যায় কার্য।                                  |
+| দক্ষিণা | /বিশেষ্য পদ/             | পুরোহিতের প্রাপ্য পারিশ্রমিক, দক্ষিণ দিক্‌                        |
+| পক্ষ    | /বিশেষ্য পদ/             | অর্ধ-মাস, পাখীর পাখা, কন্যা-পক্ষ, একাধিক পত্নীর একটি প্রথম পক্ষ. |
+:::
+
+::: footer
+:::
+
+##  ToDo 
+
+::: {.incremental}
+- Scrape other two dictionary (E2B and B2E)
+- Rank the entries based on the Lexical frequency ?
+    
+:::
+
+::: footer
+:::
